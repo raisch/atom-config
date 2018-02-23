@@ -1,0 +1,37 @@
+".source.js":
+  "await":
+    prefix: "a"
+    body: "await ${0}"
+  "Node callback":
+    prefix: "cb"
+    body: """function (err, ${1:value}) {
+    \tif (err) throw err
+    \t${0}
+    }"""
+  "Promise":
+    prefix: "p",
+    body: """
+    new Promise((resolve, reject) => {
+    \t${0}
+    })
+    """
+  "Promise.then":
+    prefix: "then"
+    body: """
+    ${1:promise}.then((${2:value}) => {
+    \t${0}
+    })
+    """
+  "chain then":
+    prefix: ".then"
+    body: ".then((${1:value}) => {${0}})"
+  "Promise.catch":
+    prefix: "catch"
+    body: """
+    ${1:promise}.catch(${2:err} => {
+    \t${0}
+    })
+    """
+  "chain catch":
+    prefix: ".catch"
+    body: ".catch((${1:err}) => {${0}})"

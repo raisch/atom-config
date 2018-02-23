@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-117721-42854-yite22.6vbrxav2t9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-117721-42854-yite22.6vbrxav2t9/package.tgz",
+        "spec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-117721-42854-yite22.6vbrxav2t9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/apm-install-dir-117721-42854-f0styl.u775zmpldi"
+    ]
+  ],
+  "_from": "../d-117721-42854-yite22.6vbrxav2t9/package.tgz",
+  "_id": "duotone-blue-black-syntax@0.7.3",
+  "_inCache": true,
+  "_location": "/duotone-blue-black-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-117721-42854-yite22.6vbrxav2t9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-117721-42854-yite22.6vbrxav2t9/package.tgz",
+    "spec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-117721-42854-yite22.6vbrxav2t9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117721-42854-yite22.6vbrxav2t9/package.tgz",
+  "_shasum": "ba0bb7e49dc3d591b52f9ce48716fe45216e7987",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-117721-42854-yite22.6vbrxav2t9/package.tgz",
+  "_where": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/apm-install-dir-117721-42854-f0styl.u775zmpldi",
+  "bugs": {
+    "url": "https://github.com/k0626089/duotone-blue-black-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "A Blue-Black DuoTone syntax theme for atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/k0626089/duotone-blue-black-syntax#readme",
+  "keywords": [
+    "duotone",
+    "syntax",
+    "blue",
+    "black",
+    "dark",
+    "flat",
+    "mpdern"
+  ],
+  "license": "MIT",
+  "name": "duotone-blue-black-syntax",
+  "optionalDependencies": {},
+  "readme": "# DuoTone Blue Black\n\n<img src=\"https://github.com/k0626089/duotone-blue-black-syntax/raw/master/docs/screenshot.png\" width=\"700\">\n\n#### Syntax theme for atom based on DuoTone.\n\n## How do I install it?\n- You can search \"DuoTone Blue Black\" in the setting menu.  \n- Or you can also execute this in the terminal.  \n\n      apm install duotone-blue-black-syntax\n\n## Who are you?\nI am a student. Studying Computer Science at Hanyang Univ.\n\n#### Enjoy the theme!\n\np.s. Here's my setup with [native-ui](https://atom.io/themes/native-ui) and futura font\n\n<img src=\"https://raw.githubusercontent.com/k0626089/duotone-blue-black-syntax/master/docs/Desktop%20ScreenShot.png\" width=\"700\">\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k0626089/duotone-blue-black-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.7.3",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,8 @@
+'.source.json':
+    'package.json':
+        'prefix':'package engines'
+        "body": """
+                "engines":{
+                    "${1:}":"${2:}"
+                },
+                """

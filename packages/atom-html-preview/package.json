@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-118026-64770-gth7jn.0woaymygb9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-118026-64770-gth7jn.0woaymygb9/package.tgz",
+        "spec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-118026-64770-gth7jn.0woaymygb9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/apm-install-dir-118026-64770-dx0tfm.m6k0veipb9"
+    ]
+  ],
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/atom-html-preview-view.coffee",
+        "lib/atom-html-preview.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    }
+  },
+  "_from": "../d-118026-64770-gth7jn.0woaymygb9/package.tgz",
+  "_id": "atom-html-preview@0.2.5",
+  "_inCache": true,
+  "_location": "/atom-html-preview",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-118026-64770-gth7jn.0woaymygb9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-118026-64770-gth7jn.0woaymygb9/package.tgz",
+    "spec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-118026-64770-gth7jn.0woaymygb9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118026-64770-gth7jn.0woaymygb9/package.tgz",
+  "_shasum": "1b6a3d9636c2b2411e84e1c95ab2121ea54e153e",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-118026-64770-gth7jn.0woaymygb9/package.tgz",
+  "_where": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/apm-install-dir-118026-64770-dx0tfm.m6k0veipb9",
+  "activationHooks": [
+    "language-html:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/harmsk/atom-html-preview/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5"
+  },
+  "description": "A live preview tool for Atom Editor.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/harmsk/atom-html-preview",
+  "license": "MIT",
+  "main": "./lib/atom-html-preview",
+  "name": "atom-html-preview",
+  "optionalDependencies": {},
+  "readme": "# Atom HTML Preview\n\nA live preview tool for Atom Editor.\n\nInstall:\n```bash\napm install atom-html-preview\n```\n\nToogle HTML Preview:\n\nPress `CTRL-P` in editor to open Preview.",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harmsk/atom-html-preview.git"
+  },
+  "version": "0.2.5"
+}

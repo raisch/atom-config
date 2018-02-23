@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-11771-20347-7jyfw2.fnmr2ro1or/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-11771-20347-7jyfw2.fnmr2ro1or/package.tgz",
+        "spec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-11771-20347-7jyfw2.fnmr2ro1or/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/apm-install-dir-11771-20347-164egif.pna2dtpgb9"
+    ]
+  ],
+  "_from": "../d-11771-20347-7jyfw2.fnmr2ro1or/package.tgz",
+  "_id": "package-atom-snippets@0.1.11",
+  "_inCache": true,
+  "_location": "/package-atom-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-11771-20347-7jyfw2.fnmr2ro1or/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-11771-20347-7jyfw2.fnmr2ro1or/package.tgz",
+    "spec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-11771-20347-7jyfw2.fnmr2ro1or/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11771-20347-7jyfw2.fnmr2ro1or/package.tgz",
+  "_shasum": "bd8f7deb62f2c71fe82136db1c777aca14db3a42",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/d-11771-20347-7jyfw2.fnmr2ro1or/package.tgz",
+  "_where": "/private/var/folders/_k/sb2y3dyn7h1bw1sb4j39sx1r0000gn/T/apm-install-dir-11771-20347-164egif.pna2dtpgb9",
+  "bugs": {
+    "url": "https://github.com/dbeff/package-atom-snippets/issues"
+  },
+  "dependencies": {},
+  "description": "Atom snippets for package.json",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/dbeff/package-atom-snippets#readme",
+  "keywords": [
+    "package",
+    "atom",
+    "snippet",
+    "snippets"
+  ],
+  "license": "MIT",
+  "main": "./lib/package-atom-snippets",
+  "name": "package-atom-snippets",
+  "optionalDependencies": {},
+  "readme": "# Package.json snippets\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbeff/package-atom-snippets.git"
+  },
+  "version": "0.1.11",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

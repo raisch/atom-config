@@ -1,0 +1,4 @@
+'.source.json':
+    'package.json':
+        'prefix':'package homepage'
+        'body': '"homepage":"${1:}",'

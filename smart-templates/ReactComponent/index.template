@@ -1,0 +1,27 @@
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import 'lodash' as _
+
+export default class <%= Name %> extends Component {
+  static propTypes = {
+    info: PropTypes.shape({
+      message: PropTypes.string,
+      time: PropTypes.number
+    }),
+    load: PropTypes.func.isRequired
+  }
+
+  static defaultProps = {
+    info: null
+  }
+
+  render() {
+    const { info, load } = this.props; // eslint-disable-line no-shadow
+    const styles = require('./<%= Name %>.scss');
+    return (
+      <div className={`${styles.<%= Name %>} well`}>
+        <%= Content %>
+      </div>
+    )
+  }
+}

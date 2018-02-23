@@ -1,0 +1,4 @@
+'.source.json':
+    'package.json':
+        'prefix':'package repository'
+        'body': '"repository":"${1:}",'

@@ -1,0 +1,74 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "7b8fb63e-9132-42e9-a138-2d7dca60e027"
+    js:
+      disabled: true
+    jsx:
+      disabled: true
+  "atom-scripts": {}
+  "autocomplete-plus":
+    scopeBlacklist: [
+      ".source.md .source.txt"
+    ]
+  autosave:
+    enabled: true
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "minimap"
+    ]
+    projectHome: "/Users/raisch/src"
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "atom-dark-syntax"
+    ]
+  date: {}
+  editor:
+    fontFamily: "mplus Nerd Font "
+    invisibles: {}
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "492ff01c-104e-457d-9fa0-f97f09787e3c"
+  "file-header":
+    copyright: "copyright 2017 by Raisch Consulting."
+    dateTimeFormat: "YYYYMMDD"
+    email: "raisch@gmail.com"
+    realname: "Raisch Rob"
+    username: "raisch"
+  "find-and-replace":
+    showSearchWrapIcon: false
+  linter: {}
+  "linter-eslint":
+    disableEslintIgnore: true
+  "linter-js-standard":
+    checkForEslintConfig: false
+    checkStyleDevDependencies: true
+    showEslintRules: true
+  "linter-ui-default":
+    panelHeight: 69
+    showPanel: true
+  minimap:
+    absoluteMode: true
+    adjustAbsoluteModeHeight: true
+    displayMinimapOnLeft: true
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      codeglance: true
+      codeglanceDecorationsZIndex: 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
+  "standard-formatter": {}
+  welcome:
+    showOnStartup: false

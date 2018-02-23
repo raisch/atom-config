@@ -1,0 +1,29 @@
+#echo *sourcing ~/.src/00env
+
+export PUBLIC_IPADDR=`ifconfig | grep 'inet ' | grep -v 127.0.0.1 | awk '{print $2}'`
+
+# ARTIFACTORY
+# export ARTIFACTORY_USER=rraisch
+# export ARTIFACTORY_PASS=cnJhaXNjaDpQaXBlNzIyMg==
+
+# GO
+export GOPATH=$HOME/src/personal/go
+export PATH=${GOPATH}/bin:${PATH}
+
+# FABIO_HOST
+# export FABIO_HOST=svc.fabio.service.us-east-1.consul
+# export FABIO_HOST=platform-backend.fabio.service.consul
+# export FABIO_PORT=9999
+
+# LEIN
+# export LEIN_USER=rraisch
+# export LEIN_PASSWORD=Pipe7222
+
+# AMBI
+export AMBI_CRED="~/.ssh/ambi-dev-east.pem"
+export AMBI_APP_EAST_PROD='ec2-54-165-201-4.compute-1.amazonaws.com'
+export AMBI_APP_EAST_SAND='ec2-34-200-254-232.compute-1.amazonaws.com'
+export AMBI_DB_EAST_PROD='ec2-34-205-39-34.compute-1.amazonaws.com'
+export AMBI_DB_EAST_SAND='ec2-34-201-210-90.compute-1.amazonaws.com'
+export AMBI_ES_EAST_PROD='ec2-34-200-241-248.compute-1.amazonaws.com'
+export AMBI_ES_EAST_SAND='ec2-34-201-28-227.compute-1.amazonaws.com'

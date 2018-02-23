@@ -1,0 +1,10 @@
+'.source.json':
+    'package.json':
+        'prefix':'package author'
+        "body": """
+                "author":{
+                    "name":"${1:}",
+                    "email":"${2:}",
+                    "url":"${3:}",
+                },
+                """

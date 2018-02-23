@@ -1,0 +1,4 @@
+'.source.json':
+    'package.json':
+        'prefix':'package private'
+        'body': '"private":"${1:true}",'

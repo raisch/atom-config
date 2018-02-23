@@ -1,0 +1,8 @@
+'.source.json':
+    'package.json':
+        'prefix':'package keywords'
+        "body": """
+                "keywords":[
+                    "${1:}"
+                ],
+                """

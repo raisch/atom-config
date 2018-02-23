@@ -1,0 +1,8 @@
+'.source.json':
+    'package.json':
+        'prefix':'package scripts'
+        "body": """
+                "scripts":{
+                    "test":"echo \"Error: no test specified\" && exit 1"
+                },
+                """

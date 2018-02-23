@@ -1,0 +1,97 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.source.js':
+
+  # MODULE
+  'Module: header':
+    'prefix': 'mh'
+    'body': """
+    'use strict'
+    /* eslint-env node, es6 */
+
+    """
+  'Module: browser header':
+    'prefix': 'mhb'
+    'body': """
+    'use strict'
+    /* eslint-env browser, commonjs, jquery, es6 */
+
+    """
+  'Module: Use strict':
+    'prefix': 'us'
+    'body': '\'use strict\'\n'
+
+  # ESLINT
+  'Eslint: disable section':
+    'prefix': 'ess-'
+    'body': ' // eslint-disable\n'
+  'Eslint: enable section':
+    'prefix': 'ess+'
+    'body': ' // eslint-enable\n'
+  'Eslint: disable line':
+    'prefix': 'esl-'
+    'body': ' // eslint-disable-line $1'
+  'Eslint: env':
+    'prefix': 'ese'
+    'body': '/* eslint-env browser, es6 */\n'
+  # Requires
+  'Require:path':
+    'prefix': 'rp',
+    'body': 'const path = require(\'path\');\n'
+  'Require with path':
+    'prefix': 'rep',
+    'body': 'const $1 = require(path.join(__dirname, \'$1\'));\n'
+
+  # temp
+  'APIHelper:err':
+    'prefix': 'aer',
+    'body': """
+      if (err) {
+        res.status(400).send({
+          status: ApiHelper.getMessage(400, Alert.ERROR, err)
+        });
+        return;
+      }
+    """
+
+  'Error:handler':
+    'prefix': 'erh',
+    'body': """
+    if (err) {
+      cb(err);
+      return;
+    }
+    """
+
+'.source.gfm':
+  'Insert Examples':
+    'prefix': 'ex',
+    'body': """
+    CORRECT
+    ```js
+    ```
+
+    Incorrect
+    ```js
+    ```
+    """
